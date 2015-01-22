@@ -2,9 +2,246 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <!--  <link rel="stylesheet" href="css/font-awesome.min.css">-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
     <title></title>
 </head>
-<body>
-<h1>Hello World</h1>
+<body data-target=".navbar-example" data-spy="scroll">
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-example">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+            </button>
+            <a class="navbar-brand" href="#">Shagupta Faras</a>
+
+        </div>
+        <div id="myNavBar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#tech">Technologies</a></li>
+                <li><a href="#certs">Projects</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" target="_blank">LinkedIn</a></li>
+                <li><a href="http://www.twitter.com/in/shaguptapatel" target="_blank">Twitter</a></li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<br>
+
+<div class="container">
+    <div class="jumbotron">
+        <img class="img-responsive img-circle center-block profile-size" src="images/profile-pic.jpg">
+        <div class="row">
+            <div class="col-xs-4 text-right"><a target="_blank" href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"><i class="fa fa-linkedin-square fa-2"></i></a></div>
+            <div class="col-xs-4"><h4 class="text-center">Shagupta</h4></div>
+            <div class="col-xs-4 text-left"><a target="_blank" href="http://twitter.com/shaguptapatel"><i class="fa fa-twitter-square fa-2"></i></a></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                Senior Software Developer
+            </div>
+        </div>
+    </div>
+</div>
+<div id="aboutme" class="container section">
+    <div class="row">
+        <div class="col-xs-12 col-md-12">
+                <h1><i class="glyphicon glyphicon-user"></i> About Me</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 cl-md-12">
+            I am Sernior software deveoper, I have around 6+ yrs of exprince in web development.
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-4 col-md-4">
+            <h2>Tech Leadership</h2>
+            <p>Technologies come and go. My role is to evaluate them, predict what opportunities lies in future with these technologies. I advice companies on what to bank on and how to prepare for them. Doing External facing Webinars and Internal Tech Summits is part of my role.</p>
+        </div>
+
+
+        <div class="col-xs-4 col-md-4">
+            <h2>Evangelism</h2>
+            <p>Technology, Culture and Fun spread based on how you Evangelize. I play a role of an Evangelist not only for Technology but the kind of culture a hyperactive team needs to deliver the best product and customer delight. And having fun while doing that is my prerequiste.</p>
+        </div>
+
+
+        <div class="col-xs-4 col-md-4">
+            <h2>Leadership</h2>
+            <p>A Leaders role is to create more Leaders. Identifying People's ambitions, their strengths and mentoring them to reach their full potential is what I have been doing for past decade. I come in, setup the team, seed leaders and when things are ripe, I step out.</p>
+        </div>
+    </div>
+</div>
+
+<div id="tech" class="container section">
+    <div class="row">
+        <div class="col-xs-12 col-md-12">
+            <h1> <i class="fa fa-rocket"></i>Technologies</h1>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-3">
+            <h4>Web</h4>
+            <code>Javascript</code>
+            <code>JQuery</code>
+            <code>Angular</code>
+            <code>Bootstrap</code>
+            <code>AJAX</code>
+            <code>JSON</code>
+
+
+        </div>
+        <div class="col-xs-12 col-md-3">
+            <h4>Database</h4>
+            <code>Mysql</code>
+            <code>PostgresSql</code>
+
+
+        </div>
+        <div class="col-xs-12 col-md-3">
+            <h4>Backend[language/Framework/CMS]</h4>
+            <code>PHP</code>
+            <code>Symfony</code>
+            <code>Doctrine</code>
+            <code>CodeIgnitor</code>
+            <code>Moodle</code>
+            <code>Oscommerce</code>
+            <code>Modx</code>
+
+        </div>
+        <div class="col-xs-12 col-md-3">
+            <h4>Tools</h4>
+            <code>Jira</code>
+            <code>Git</code>
+            <code>Bugzilla</code>
+
+        </div>
+
+    </div>
+</div>
+<div id="certs" class="container section">
+    <div class="row">
+    <div class="col-md-12">
+        <h1><i class="fa fa-certificate"></i> Projects</h1>
+    </div>
+
+    </div>
+    <div class="row">
+    <div class="col-xs-12 col-md-12">
+        <div class="cert-wrapper">
+            <div class="title">
+                MCN Healthcare Learning Management System, USA
+            </div>
+            <div class="from">
+                PHP-mysql,Moodle(LMS),Git,Jira
+            </div>
+            <div class="date">
+                MCN are one of the best healthcare providers to all the members in the community, so as a staff member user should possess a good knowledge in all the healthcare aspects. Using the facility provided on the website User should be able to attend various courses, classrooms, surveys, Quizzes etc. and do the certifications.
+            </div>
+        </div>
+        <br>
+        <div class="cert-wrapper">
+            <div class="title">
+                Securities and Exchange Commission, Nigeria
+            </div>
+            <div class="from">
+                PHP-Symfony,Doctrine,Java Script ,HTML,AJAX,JQuery,cron setup, sfWebBrowser plugin
+            </div>
+            <div class="date">
+                This system is about nigerian stock market. In this project, I have worked on most of functionality like developed  long and complex form in a simple form by embedding 8-10 another forms. I have developed simple functionality & GUI based  form ,which reused in most of others form development. I was the part of end to end requirement analysis and DB design process. I have developed multiple approval process for applications. Also, I have displayed updated top 10 nigerian Stock trading list on front page, by fetching data from another website & parsing it in required formate.
+            </div>
+        </div>
+        <br>
+        <div class="cert-wrapper">
+            <div class="title">
+                Orange HRMS Project
+            </div>
+            <div class="from">
+                Symfony-Doctrine,Git,Jira
+            </div>
+            <div class="date">
+                Customization in Orange HRMS. Majorly working on performance & recruitment. Module, also on attendance management system.
+
+
+            </div>
+        </div>
+        <br>
+        <div class="cert-wrapper">
+            <div class="title">
+                Gboosa [Social Networking web site], Nigeria
+            </div>
+            <div class="from">
+                CodeIgnitor,Java Script ,HTML,AJAX,JQuery
+            </div>
+            <div class="date">
+                Gboosa is a social networking site that will focus on students in Nigeria. The aim is to give students an invaluable resource that provides them with information about their schools, courses, events, seminars, competitions, and other ways to enrich their lives while engaged in academics. The site is also meant to go beyond university and provide students with opportunities that will help kick start their professional lives no matter the discipline. Developed some functionality like created profile ,friends, send messages,chatting , organize events like [games, movie,news, academics ,contest]
+            </div>
+        </div>
+        <br>
+        <div class="cert-wrapper">
+            <div class="title">
+                Shopping Cart Website	dekomount-shopping site   [http://www.dekomount.co.uk/ ]
+            </div>
+            <div class="from">
+                PHP5, mysql, Java Script ,HTML,AJAX, JQuery
+            </div>
+            <div class="date">
+                This is shopping site for different cosmetics products with google checkout, paypal & protex payment gateway.
+            </div>
+        </div>
+        <br>
+        <div class="cert-wrapper">
+            <div class="title">
+                Shopping Cart Websitemypalace -shopping site  www.mypalaceessentials.co.uk/  www.designerlaunch.com/ecommerce/shopping
+            </div>
+            <div class="from">
+                Oscommerce, Java Script, HTML, AJAX, JQuery
+            </div>
+            <div class="date">
+                This is shopping site for different cosmetics products with Google checkout,paypal & protex payment gateway.
+            </div>
+        </div>
+        <br>
+        <div class="cert-wrapper">
+            <div class="title">
+                Employment & Self-Employment,	 Rojgar Wahini[ese.mah.nic.in]: [National Information Centre ,Pune]
+            </div>
+            <div class="from">
+                PHP5, Oracle 8, DB2 ,Java Script ,HTML,XML,AJAX,mySql
+            </div>
+            <div class="date">
+                This is about employment & self employment process. It registered all employee & gives employment options as per there qualification.
+            </div>
+        </div>
+
+    </div>
+
+</div>
+    </div>
+<div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 text-center">
+                <span>Contact me at shagupta.faras@synerzip.com</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
 </body>
 </html>
